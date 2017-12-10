@@ -14,7 +14,7 @@ The clock is built around the ESP8266-based Wemos D1 mini. The Wemos needs to be
 
 * Connections from D0 to D8 on the Wemos D1 mini to their corresponding transistors are omitted in the diagram for clarity. Similarly marked points need to be connected together
 
-* All Transistor, except T1, T2 are NPN type  – Part No. BC 547
+* All Transistors, except T1, T2 are NPN type  – Part No. BC 547
  
 * T1, T2 are PNP type Transistors                  – Part No. BC 557 
 
