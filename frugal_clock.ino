@@ -5,8 +5,8 @@
 #include <ESP8266WebServer.h>
 #include <ESP8266mDNS.h>
 
-const char *ssid = "Andromeda";
-const char *password = "Europa30";
+const char *ssid = "<SSID>";
+const char *password = "<PSK>";
 
 char hstring[3] = "12";          // init
 char mstring[3] = "1";          // init
