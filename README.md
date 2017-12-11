@@ -27,3 +27,5 @@ The clock is built around the ESP8266-based Wemos D1 mini. The Wemos needs to be
 * The Decimal Point (dp) of the display on the right (units place) is used to indicate that the currently displayed number is “hour”
 
 * The Decimal Point (dp) of the display on the left (tens place) is not used, and not connected. 
+
+* The URL http://<Wemos IP address>/set?h=12&m=34 needs to be called to display 12:34. It is enough to call URL of this format every minute from a suitable external computer running a "batch job". Node-RED, with its "inject" and "http-request" nodes works very well.
